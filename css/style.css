@@ -642,7 +642,6 @@ section{
     font-size: 2.4rem;
     color: #fff;
 }
-
 /* ANIMATIONS ON SCROLL */
 /* .animate{
     position: absolute;
@@ -768,9 +767,6 @@ section{
     .navbar.active .active-nav{
         left: 0;
         transition-delay: .25s;
-    }
-    .home-imgHover{
-        pointer-events: none;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
