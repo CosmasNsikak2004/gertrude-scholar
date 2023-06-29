@@ -264,8 +264,6 @@ section{
 }
 .education-column .title{
     text-align: center;
-    /* position: relative;
-    display: inline-block; */
     font-size: 2.5rem;
     font-family: var(--Playfair);
     margin: 0 0 1.5rem 2rem;
@@ -336,8 +334,6 @@ section{
     flex: 1 1 40rem;
 }
 .skills-column .title{
-    /* position: relative;
-    display: inline-block; */
     text-align: center;
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
@@ -445,10 +441,8 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap:50px;
     margin-bottom: 50px;
-    /* margin:40px 50px; */
 }        
 .card {
-    /* margin: 20px 1.5rem; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
