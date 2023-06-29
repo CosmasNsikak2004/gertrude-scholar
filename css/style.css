@@ -642,43 +642,6 @@ section{
     font-size: 2.4rem;
     color: #fff;
 }
-/* ANIMATIONS ON SCROLL */
-/* .animate{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: 98;
-}
-.logo .animate,
-.navbar .animate,
-#menu-icon .animate,
-.home.show-animate .animate{
-    animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s * var(--i));
-}
-.animate.home-img{
-    width: 50%;
-
-}
-.animate.scroll{
-    transition: 1s ease;
-    transition-delay: calc(.3s / var(--i));
-    animation: none;
-}
-.education .education-box .animate.scroll{
-    width: 105%;
-}
-.about.show-animate .animate.scroll,
-.education.show-animate .animate.scroll,
-.skills.show-animate .animate.scroll,
-.contact.show-animate .animate.scroll{
-    transition-delay: calc(.3s * var(--i));
-    width: 0;
-} */
-
 /* BREAKPOINTS */
 @media(max-width: 1200px){
     html{
@@ -688,11 +651,9 @@ section{
         display: block;
         top: 0;
     }
-    
     .header .nav ul{
         margin-right: 30px;
     }
-
     .home-list div{
         padding: 40px 0;
         font-size: 13px;
@@ -808,11 +769,5 @@ section{
 @media(max-width:360px){
     .footer p{
         text-align: center;
-    }
-}
-
-@keyframes showRight{
-    100%{
-        width: 0;
     }
 }
