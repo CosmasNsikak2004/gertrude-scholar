@@ -424,6 +424,7 @@ section{
 }
 .pub-title{
     margin-top: 40px;
+    text-align: center;
 }
 .pub-title h2{
     font-size: 3rem;
